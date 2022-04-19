@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /target/SampleMavenTomcatApp.war
+  - source: src/main/webapp/WEB-INF/pages/index.jsp
     destination: /var/lib/tomcat8/webapps/3
   - source: /scripts/configure_http_port.xsl
     destination: /var/lib/tomcat8/webapps/3
