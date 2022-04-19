@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /home/ubuntu/.jenkins/workspace/NewProject/target/SampleMavenTomcatApp.war
+  - source: /target/SampleMavenTomcatApp.war
     destination: /var/lib/tomcat8/webapps/1.war
   - source: /scripts/configure_http_port.xsl
     destination: /var/lib/tomcat8/webapps/
