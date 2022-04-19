@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /target/SampleMavenTomcatApp.war
-    destination: /var/lib/tomcat8/webapps/1.war
+    destination: /var/lib/tomcat8/webapps/2.war
   - source: /scripts/configure_http_port.xsl
     destination: /var/lib/tomcat8/webapps/
 hooks:
